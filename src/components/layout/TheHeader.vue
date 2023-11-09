@@ -3,39 +3,52 @@
 </script>
 
 <template>
-    <!-- <div>
-        <p>정복한 산</p>
-        
-    </div> -->
-<div class="head">
-
-    <p>산들바람</p>
-
-    <router-link to="">정복한 산  </router-link> 
-    <router-link to="">랭킹</router-link>   
-    <router-link to="">기록</router-link>   
-     
-
-     <router-link to="" class="btn">로그인</router-link>    
-    <router-link to="" class="btn">회원가입</router-link>  
+  <div class="head">
+    <p class="logo">산들바람</p>
+    <nav>
+      <router-link to="/conqueredmountain">  정복한 산</router-link>
+      <router-link to="/rank">랭킹</router-link>
+      <router-link to="/board">게시판</router-link>
 
 
+    </nav>
 
-</div>
-
+    <div class="auth-buttons">
+      <router-link to="" class="btn">로그인</router-link>
+      <router-link to="" class="btn">회원가입</router-link>
+    </div>
+  </div>
 </template>
 
 <style scoped>
-
-router-link{
-    margin-left: 11px;
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #333;
+  color: white;
 }
-.head{
-    margin-left: 333px;
-    color: aquamarine;
- }
-.btn {
 
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+router-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
   display: inline-block;
   padding: 10px 20px;
   background-color: #007bff;
@@ -46,5 +59,4 @@ router-link{
   cursor: pointer;
   height: 19px;
 }
-
 </style>

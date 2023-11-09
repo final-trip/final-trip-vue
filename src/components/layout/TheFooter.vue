@@ -9,5 +9,5 @@
 </template>
 
 <style scoped>
-    footer{border-top:1px solid #35495e; text-align:center; font-size:16px; color:#41b883; margin:100px 0 0 0;}
+    footer{ text-align:center; font-size:16px; color:#46D3A9; margin:100px 0 0 0;}
 </style>
