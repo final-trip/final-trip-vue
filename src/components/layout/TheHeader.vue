@@ -28,8 +28,7 @@
   padding: 10px;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: #333;
-  color: white;
+   color: white;
 }
 
 .logo {
@@ -58,5 +57,6 @@ router-link {
   border-radius: 5px;
   cursor: pointer;
   height: 19px;
+  margin-left: 3px;
 }
 </style>
